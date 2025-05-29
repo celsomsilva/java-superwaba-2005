@@ -1,21 +1,35 @@
+# 📱 Sales - SuperWaba Project (2005)
 
-# Sales Project (2005) - SuperWaba Framework
+This is a legacy project developed in 2005 using **SuperWaba**, a mobile application development framework derived from the **Waba project**, an early pioneer in mobile Java development (pre-Java ME).
 
-This repository contains a legacy mobile sales system developed in 2005 using the **SuperWaba** framework — a precursor to **Java ME** designed for portable applications running on Palm OS and Windows CE.
-
----
-
-## 📜 About SuperWaba
-
-**SuperWaba** evolved from the Waba project, a pioneering independent framework predating Java Platform, Micro Edition (Java ME). Initially supporting Palm OS, it later expanded to Windows CE devices.
-
-Since version 5.0, SuperWaba integrated the SDL library for graphical display, enhancing its portability across different platforms.
-
-**Note:** SuperWaba is now discontinued. Its official successor is **TotalCross**, which offers better cross-platform support, leaner compilation, improved performance, and a smaller footprint for mobile applications.
+The main application, `Sales`, was built for mobile devices running **Palm OS** and **Windows CE** platforms.
 
 ---
 
-## 📁 Project Structure
+## 📌 About SuperWaba
+
+SuperWaba evolved from the Waba project, initially supporting Palm OS devices and later expanding to Windows CE and other platforms via SDL from version 5.0. It was a popular option in Brazil for enterprise mobile applications throughout the early 2000s.
+
+> **Note:** SuperWaba is no longer maintained. Its successor, **TotalCross**, is a modern, lightweight mobile SDK offering improved performance and cross-platform support.
+
+---
+
+## 📊 About This Project
+
+The `Sales` application was developed in **2005** as part of one of the **startups incubated at PUC-Rio (Pontifical Catholic University of Rio de Janeiro)**.
+
+The goal was to create a portable, lightweight, and efficient mobile sales force management system for handheld devices used by sales teams in the field.
+
+**Main functionalities:**
+- Client management  
+- Product catalog management  
+- Price table handling  
+- Order entry and tracking  
+- Sales reporting and dashboards  
+
+---
+
+## 📂 Project Structure
 
 ```
 superwaba/
@@ -40,33 +54,49 @@ superwaba/
     └── ForcaDeVendas.java
 ```
 
-- **bd/** — Database-related classes and data access logic.
-- **ui/** — User Interface modules, organized by feature (Clients, Orders, Products, Reports).
-- **DynamicTabPanel.java** — Custom dynamic tab component.
-- **ForcaDeVendas.java** — Main application controller for the Sales Force system.
+> **Note:** Due to the deprecation of the SuperWaba platform, this project is no longer executable. It remains available for historical and educational purposes.
 
 ---
 
-## ⚠️ Disclaimer
+## 🏛️ Institutional Use
 
-This project is a **legacy application** and cannot be compiled or executed with modern Java environments. The repository is maintained solely for **historical reference** and code archival purposes.
+SuperWaba was officially adopted in large-scale projects in Brazil, including government-led initiatives. Notably:
 
----
+In **2009**, the **Brazilian Ministry of Planning, Budget and Management**, through the **IBGE (Brazilian Institute of Geography and Statistics)**, issued an official tender for the **migration of the Censo 2010 mobile application from SuperWaba to TotalCross**.
 
-## 📌 Notes
+**Official Tender Highlights:**
+- **Tender:** Pregão Eletrônico Nº 76/2009  
+- **Service:** Migration of Censo2010 mobile application from SuperWaba to TotalCross  
+- **Included Deliverables:**
+  - Full code review and optimization for TotalCross
+  - Workshop to train a 15-person internal IBGE team on TotalCross technology and source code updates
+  - Licensing of **260,000 virtual machines** for a one-year period
 
-- No `src/` or `data/` folders are present, as the original environment setup and emulator dependencies are obsolete.
-- No installation or usage instructions are provided, as SuperWaba is no longer supported.
-
----
-
-## 📚 References
-
-- [SuperWaba Official Archive (legacy)](https://web.archive.org/web/20080409173924/http://www.superwaba.org/)
-- [TotalCross Mobile SDK](https://totalcross.com/)
+**Source:** Brazilian Ministry of Planning and IBGE (2009)
 
 ---
 
-## 📅 Author
+## 📖 License
 
-**[Your Name]** — Developed during early mobile programming experiments in 2005.
+MIT License  
+
+```
+MIT License
+
+Copyright (c) 2005
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights  
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell  
+copies of the Software, and to permit persons to whom the Software is  
+furnished to do so, subject to the following conditions:
+
+[... license continues ...]
+```
+
+---
+
+## 📎 Disclaimer
+
+This project is preserved for historical, academic, and educational purposes only. It represents mobile development practices from the early 2000s and should not be used for production systems.
