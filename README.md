@@ -1,6 +1,6 @@
 # 📱 Sales - SuperWaba Project (2005)
 
-This is a legacy project developed in 2005 using **SuperWaba**, a mobile application development framework derived from the **Waba project**, an early pioneer in mobile Java development (pre-Java ME).
+This is a legacy project developed in 2005 using **SuperWaba**, a mobile development platform derived from the **Waba project**, an early pioneer in mobile Java development (pre-Java ME).
 
 The main application, `Sales`, was built for mobile devices running **Palm OS** and **Windows CE** platforms.
 
