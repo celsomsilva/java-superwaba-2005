@@ -1,4 +1,14 @@
-# Sales - SuperWaba Project (2005)
+
+![Java](https://img.shields.io/badge/Java-5-007396?logo=java&logoColor=white)
+![Pioneering Mobile Tech](https://img.shields.io/badge/Pioneering_Mobile_Tech-2005-orange)
+![Eclipse](https://img.shields.io/badge/Eclipse-IDE-2C2255?logo=eclipseide&logoColor=white)
+![License](https://img.shields.io/github/license/celsomsilva/java-superwaba-2005)
+
+
+
+
+
+# Sales - Java Mobile Project (2005)
 
 This is a legacy project developed in 2005 using **SuperWaba**, a mobile development platform derived from the **Waba project**, an early pioneer in mobile Java development (pre-Java ME).
 
@@ -80,3 +90,27 @@ In **2009**, the **Brazilian Ministry of Planning, Budget and Management**, thro
 ## Disclaimer
 
 This project is preserved for historical, academic, and educational purposes only. It represents mobile development practices from the early 2000s and should not be used for production systems.
+
+
+---
+
+
+## About the Author
+
+I’m a Data Science and Analytics specialist (USP postgraduate) and Computer Engineer (UERJ) with a career spanning from **Pascal/C/Java roots** to **modern Machine Learning and AI**.
+
+My academic and professional background includes:
+
+- **Computation in general**
+- **Machine Learning**
+- **Hierarchical nonlinear mixed models (HLM3/HLM2)**, **Intraclass correlation (ICC)** and other topics about **HLM**
+- **Residual diagnostics and model validation**
+- **Deep Learning, LLMs, and Reinforcement Learning (ongoing specialization)**
+
+
+---
+
+## Contact  
+
+- [LinkedIn](https://linkedin.com/in/celso-m-silva)  
+- Or open an [issue](https://github.com/celsomsilva/java-suerwaba-2005/issues)
