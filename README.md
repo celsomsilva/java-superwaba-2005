@@ -10,6 +10,8 @@
 
 # Sales - Java Mobile Project (2005)
 
+<**Note:** This repository contains the original version in Portuguese.  You will find the repository that contains the English-translated version here: [java SuperWaba 2005 en](https://github.com/celsomsilva/java-superwaba-2005-en, including file names, variables, methods, and comments.
+
 This is a legacy project developed in 2005 using **SuperWaba**, a mobile development platform derived from the **Waba project**, an early pioneer in mobile Java development (pre-Java ME).
 
 The main application, `Sales`, was built for mobile devices running **Palm OS** and **Windows CE** platforms.
@@ -42,7 +44,7 @@ The goal was to create a portable, lightweight, and efficient mobile sales force
 ## Project Structure
 
 ```
-superwaba/
+java-superwaba-2005/
 └── sales/
     ├── bd/
     │   ├── ClienteBD.java
@@ -52,19 +54,67 @@ superwaba/
     │   ├── ProdutoBD.java
     │   └── TabelaDePrecoBD.java
     │
-    ├── ui/
-    │   ├── cliente/
-    │   ├── pedido/
-    │   ├── produto/
-    │   ├── relatorios/
-    │   ├── BaseMenu.java
-    │   └── MenuPrincipal.java
+    ├──ui/
+    │	├── cliente/
+    │   │	├── ClienteCreditos.java    
+    │   │	├── ClienteEnderecoDeCobranca.java    
+    │   │	├── ClienteEnderecoDeEntrega.java
+    │   │	├── ClienteEndereco.java    
+    │   │	├── ClienteGeral.java   
+    │   │	├── ClienteMaisEndereco.java    
+    │   │	├── ClienteMaisInfo.java    
+    │   │	├── ClientesMenu.java    
+    │   │	├── NovoCliente.java    
+    │   │	└── ProcuraClientes.java   
+    │	│        
+    │	├── produto/
+    │   │	├── NovoProduto.java
+    │   │	├── ProcuraProdutos.java
+    │   │	└── ProdutosMenu.java
+    │	│
+    │	├── pedido/
+    │   │	├── ItemsDoPedido.java
+    │   │	├── NovoPedido.java
+    │   │	├── PedidoGeral.java
+    │   │	├── PedidoTabelaDePreco.java
+    │   │	├── PedidosMenu.java
+    │   │	└── ProcuraPedidos.java
+    │	│
+    │	├── relatorios/
+    │   │	├── RelatorioMenu.java
+    │   │	├── sumariodevendas/
+    │   │	│   ├── Anual.java
+    │   │	│   ├── Diario.java
+    │   │	│   ├── Mensal.java
+    │   │	│   ├── PorPeriodo.java
+    │   │	│   └── SumarioDeVendasMenu.java
+    │   │	│
+    │   │	└── vendasporproduto/
+    │   │	    ├── Anual2.java
+    │   │	    ├── Diario2.java
+    │   │	    ├── Mensal2.java
+    │   │	    ├── PorPeriodo2.java
+    │   │	    └── VendasPorProdutoMenu.java
+    │	│
+    │	├── BaseMenu.java
+    │	└── MenuPrincipal.java
     │
     ├── DynamicTabPanel.java
     └── ForcaDeVendas.java
+
 ```
 
 > **Note:** Due to the deprecation of the SuperWaba platform, this project is no longer executable. It remains available for historical and educational purposes.
+
+---
+
+
+## About the Refactoring
+
+This repository focuses on source code preservation and translation rather than execution.  
+The original SuperWaba SDK is no longer maintained, and rebuilding the environment is unnecessary for documentation purposes.
+All refactoring (class, variable, and comment translation) was performed directly in Eclipse without dependency resolution.
+
 
 ---
 
