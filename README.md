@@ -8,7 +8,7 @@
 
 # Sales - Java Mobile Project (2005)
 
-> **Note:** This repository contains the original version in Portuguese (file names, variables and methods).  You will find the repository that contains the English-translated version here: [java SuperWaba 2005 en](https://github.com/celsomsilva/java-mobile-2005-en.
+> **Note:** This repository contains the original version in Portuguese (file names, variables and methods).  You will find the repository that contains the English-translated version here: [java SuperWaba 2005 en](https://github.com/celsomsilva/java-mobile-2005-en).
 
 
 This is a legacy project developed in 2005 using **Java** and the **SuperWaba** SDK — a mobile development platform derived from the **Waba project**, an early pioneer in mobile Java development (before Java ME).
@@ -21,7 +21,7 @@ This commercial application, `Sales`, was built for mobile devices running **Pal
 
 The SuperWaba company — led by **Guilherme Campos Hazan** — continued the original Waba Project, which began in 1999, and was later incubated at the **Pontifical Catholic University of Rio de Janeiro (PUC-Rio)**.
 
-SuperWaba SDK initially supporting Palm OS devices and later expanding to Windows CE and other platforms via SDL from version 5.0. It was a popular option for enterprise mobile applications throughout the early 2000s. SuperWaba was officially adopted in large-scale projects in Brazil.
+SuperWaba SDK initially supported Palm OS devices and later expanded to Windows CE and other platforms via SDL from version 5.0. It was a popular option for enterprise mobile applications throughout the early 2000s. SuperWaba was officially adopted in large-scale projects in Brazil.
 
 > **Note:** SuperWaba was later renamed and evolved into [TotalCross](https://github.com/TotalCross/totalcross), a modern, lightweight mobile SDK offering improved performance and broader cross-platform support.
 
@@ -46,7 +46,7 @@ The goal was to create a portable, lightweight, and efficient mobile sales force
 ## Project Structure
 
 
-> At that time, Java packages typically followed simple directory-based naming (e.g., `db/`, `ui/`, `custumer/`)  
+> At that time, Java packages typically followed simple directory-based naming (e.g., `bd/`, `ui/`, `cliente/`)  
 > instead of domain-based structures (`br.com.project...`).  
 > This reflects the early pre-Eclipse Java era.
 
