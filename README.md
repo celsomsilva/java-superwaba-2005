@@ -8,7 +8,7 @@
 
 # Sales - Java Mobile Project (2005)
 
-> **Note:** This repository contains the original version in Portuguese (file names, variables, methods, and comments).  You will find the repository that contains the English-translated version here: [java SuperWaba 2005 en](https://github.com/celsomsilva/java-mobile-2005-en.
+> **Note:** This repository contains the original version in Portuguese (file names, variables and methods).  You will find the repository that contains the English-translated version here: [java SuperWaba 2005 en](https://github.com/celsomsilva/java-mobile-2005-en.
 
 
 This is a legacy project developed in 2005 using **Java** and the **SuperWaba** SDK — a mobile development platform derived from the **Waba project**, an early pioneer in mobile Java development (before Java ME).
@@ -19,11 +19,11 @@ This commercial application, `Sales`, was built for mobile devices running **Pal
 
 ## About SuperWaba
 
-The SuperWaba company — led by **Guilherme Campos Hazan**, which continued the original Waba Project — was incubated at **PUC-Rio (Pontifical Catholic University of Rio de Janeiro)**.
+The SuperWaba company — led by **Guilherme Campos Hazan** — continued the original Waba Project, which began in 1999, and was later incubated at the **Pontifical Catholic University of Rio de Janeiro (PUC-Rio)**.
 
 SuperWaba SDK initially supporting Palm OS devices and later expanding to Windows CE and other platforms via SDL from version 5.0. It was a popular option for enterprise mobile applications throughout the early 2000s. SuperWaba was officially adopted in large-scale projects in Brazil.
 
-> **Note:** SuperWaba was later renamed and evolved into TotalCross, a modern, lightweight mobile SDK offering improved performance and broader cross-platform support.
+> **Note:** SuperWaba was later renamed and evolved into [TotalCross](https://github.com/TotalCross/totalcross), a modern, lightweight mobile SDK offering improved performance and broader cross-platform support.
 
 ---
 
@@ -113,6 +113,11 @@ java-mobile-2005/
 ```
 
 ---
+
+> **Note on code comments:**  
+> The original source files preserve their historical form.  
+> Comments appear in both **Portuguese** and **English**, reflecting the original 2005 code style — written manually, without automated translation tools.
+
 
 ## Institutional Use
 
