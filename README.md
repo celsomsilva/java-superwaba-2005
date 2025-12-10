@@ -1,11 +1,3 @@
-
-![Java](https://img.shields.io/badge/Java-5-007396?logo=java&logoColor=white)
-![Pioneering Mobile Tech](https://img.shields.io/badge/Pioneering_Mobile_Tech-2005-orange)
-![Eclipse](https://img.shields.io/badge/Eclipse-IDE-2C2255?logo=eclipseide&logoColor=white)
-![License](https://img.shields.io/github/license/celsomsilva/java-mobile-2005)
-
-
-
 # Sales - Java Mobile Project (2005)
 
 > **Note:** This repository contains the original version in Portuguese (file names, variables and methods).  You will find the repository that contains the English-translated version here: [java SuperWaba 2005 en](https://github.com/celsomsilva/java-mobile-2005-en).
@@ -51,65 +43,66 @@ The goal was to create a portable, lightweight, and efficient mobile sales force
 > This reflects the early pre-Eclipse Java era.
 
 
+
 ```
 java-mobile-2005/
-└── sales/
-    ├── bd/
-    │   ├── ClienteBD.java
-    │   ├── ItemDoPedidoBD.java
-    │   ├── ParametrosBD.java
-    │   ├── PedidoBD.java
-    │   ├── ProdutoBD.java
-    │   └── TabelaDePrecoBD.java
-    │
-    ├──ui/
-    │	├── cliente/
-    │   │	├── ClienteCreditos.java    
-    │   │	├── ClienteEnderecoDeCobranca.java    
-    │   │	├── ClienteEnderecoDeEntrega.java
-    │   │	├── ClienteEndereco.java    
-    │   │	├── ClienteGeral.java   
-    │   │	├── ClienteMaisEndereco.java    
-    │   │	├── ClienteMaisInfo.java    
-    │   │	├── ClientesMenu.java    
-    │   │	├── NovoCliente.java    
-    │   │	└── ProcuraClientes.java   
-    │	│        
-    │	├── produto/
-    │   │	├── NovoProduto.java
-    │   │	├── ProcuraProdutos.java
-    │   │	└── ProdutosMenu.java
-    │	│
-    │	├── pedido/
-    │   │	├── ItemsDoPedido.java
-    │   │	├── NovoPedido.java
-    │   │	├── PedidoGeral.java
-    │   │	├── PedidoTabelaDePreco.java
-    │   │	├── PedidosMenu.java
-    │   │	└── ProcuraPedidos.java
-    │	│
-    │	├── relatorios/
-    │   │	├── RelatorioMenu.java
-    │   │	├── sumariodevendas/
-    │   │	│   ├── Anual.java
-    │   │	│   ├── Diario.java
-    │   │	│   ├── Mensal.java
-    │   │	│   ├── PorPeriodo.java
-    │   │	│   └── SumarioDeVendasMenu.java
-    │   │	│
-    │   │	└── vendasporproduto/
-    │   │	    ├── Anual2.java
-    │   │	    ├── Diario2.java
-    │   │	    ├── Mensal2.java
-    │   │	    ├── PorPeriodo2.java
-    │   │	    └── VendasPorProdutoMenu.java
-    │	│
-    │	├── BaseMenu.java
-    │	└── MenuPrincipal.java
-    │
-    ├── DynamicTabPanel.java
-    └── ForcaDeVendas.java
+  sales/
+    bd/
+      ClienteBD.java
+      ItemDoPedidoBD.java
+      ParametrosBD.java
+      PedidoBD.java
+      ProdutoBD.java
+      TabelaDePrecoBD.java
 
+    ui/
+      cliente/
+        ClienteCreditos.java
+        ClienteEnderecoDeCobranca.java
+        ClienteEnderecoDeEntrega.java
+        ClienteEndereco.java
+        ClienteGeral.java
+        ClienteMaisEndereco.java
+        ClienteMaisInfo.java
+        ClientesMenu.java
+        NovoCliente.java
+        ProcuraClientes.java
+
+      produto/
+        NovoProduto.java
+        ProcuraProdutos.java
+        ProdutosMenu.java
+
+      pedido/
+        ItemsDoPedido.java
+        NovoPedido.java
+        PedidoGeral.java
+        PedidoTabelaDePreco.java
+        PedidosMenu.java
+        ProcuraPedidos.java
+
+      relatorios/
+        RelatorioMenu.java
+
+        sumariodevendas/
+          Anual.java
+          Diario.java
+          Mensal.java
+          PorPeriodo.java
+          SumarioDeVendasMenu.java
+
+        vendasporproduto/
+          Anual2.java
+          Diario2.java
+          Mensal2.java
+          PorPeriodo2.java
+          VendasPorProdutoMenu.java
+
+      BaseMenu.java
+      MenuPrincipal.java
+
+    DynamicTabPanel.java
+    ForcaDeVendas.java
 ```
 
 ---
@@ -198,10 +191,9 @@ I’m a Data Science and Analytics specialist (USP postgraduate) and Computer En
 My academic and professional background includes:
 
 - **Computation in general**
-- **Machine Learning**
-- **Hierarchical nonlinear mixed models (HLM3/HLM2)**, **Intraclass correlation (ICC)** and other topics about **HLM**
-- **Residual diagnostics and model validation**
-- **Deep Learning, LLMs, and Reinforcement Learning (ongoing specialization)**
+- **Machine Learning in general**
+- **Hierarchical nonlinear mixed models**
+- **Deep Learning, LLMs**
 
 
 ---
